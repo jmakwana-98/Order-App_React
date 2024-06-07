@@ -1,0 +1,78 @@
+header {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  nav li {
+    margin-bottom: 1rem;
+  }
+  
+nav a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+nav a:hover {
+  color: #23527c;
+}
+
+  /* New Item Page Styles */
+  .new-item-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  .new-item-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .new-item-form input[type="text"],
+  .new-item-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .new-item-form input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .new-item-form input[type="submit"]:hover {
+    background-color: #23527c;
+  }
+
+  nav a#home-link, #new-link {
+    text-decoration: underline;
+  }
+
